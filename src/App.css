@@ -1,0 +1,38 @@
+html, body, .App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Major Mono Display', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-size: 96px;
+}
+
+a:hover{
+  color: orangered;
+}
+
+.promo {
+  width: 100vw;
+  position: absolute;
+  bottom:10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width : 640px) {
+  a {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width : 641px) and (max-width:950px){
+  a {
+    font-size: 56px;
+  }
+}
